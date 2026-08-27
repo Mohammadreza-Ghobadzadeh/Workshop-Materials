@@ -24,4 +24,4 @@ MPC_mul_shooting
 Keep `shift.m` and `Draw_MPC_point_stabilization_v1.m` in the same folder.
 
 **Tools:** MATLAB, CasADi, IPOPT
-**Lecturers:** Hamzeh Kashi Yarandi & MohammadReza Ghobadzadeh
+**Lecturers:** MohammadReza Ghobadzadeh & Hamzeh Kashi Yarandi
