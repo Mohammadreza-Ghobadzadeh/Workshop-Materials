@@ -1,3 +1,4 @@
+% Written by Mohammadreza Ghobadzadeh
 function [] = animatePendulum(Theta, dt, filename)
 first_it = true;
 for th = Theta
