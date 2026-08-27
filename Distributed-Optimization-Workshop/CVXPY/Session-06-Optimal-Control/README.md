@@ -2,4 +2,4 @@
 
 Notebook: `Optimal Control.ipynb`
 
-[Open the CVXPY workshop playlist](https://www.youtube.com/playlist?list=PLU_FeksUzG_k)
+[Watch the recorded lecture](https://www.youtube.com/watch?v=B7mxVeqvzns)
