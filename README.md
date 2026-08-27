@@ -6,7 +6,7 @@ Hands-on source codes and lecture materials for three university workshops in **
 **Affiliation:** School of Electrical and Computer Engineering, University of Tehran  
 **Labs:** Smart Network Systems Laboratory · Advanced Control Systems Laboratory (ACSL) · Process Control Laboratory, K. N. Toosi University of Technology
 
-Every session folder in this repository contains its own notes **and the implementation files**. You do not need any other GitHub repository to download or run the codes.
+Every session folder in this repository contains its own notes **and the implementation files**.
 
 ## Workshops
 
