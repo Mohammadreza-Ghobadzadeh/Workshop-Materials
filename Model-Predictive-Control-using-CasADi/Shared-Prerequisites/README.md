@@ -1,34 +1,21 @@
 # Shared Prerequisites
 
-Two intermediate foundation modules from the original MPC workshop are intentionally not duplicated here because the corresponding material is already available in the **Numerical Optimal Control Workshop**.
+Before MPC Session 3, work through the matching sessions **in this same repository**:
 
-Complete the following recordings after MPC Session 2 and before MPC Session 3.
+[Numerical-Optimal-Control-Workshop](../../Numerical-Optimal-Control-Workshop/)
 
-## A. CasADi Fundamentals II
+## A. CasADi fundamentals
 
-- CasADi symbolics and arithmetic operations
-- Jacobians, gradients, and Hessians
-- Function objects and function calls
-- Root-finding methods and CasADi `rootfinder`
-- ODE integration and stiff-system concepts
-- DAE formulation and numerical integration
+Folder: [Session-01-Foundations-and-CasADi](../../Numerical-Optimal-Control-Workshop/Session-01-Foundations-and-CasADi/)
 
-Recommended recording:
+Codes: `Symbolics.m`, `Function_Objects.m`
 
-- [Numerical Optimal Control Workshop — Session 1](https://youtu.be/L3QsqFfRAtQ?list=PLJ5BV5EDkg3s)
+Lecture: [Session 1](https://youtu.be/L3QsqFfRAtQ?list=PLJ5BV5EDkg3s)
 
-## B. Numerical Optimization & Direct Shooting Foundations
+## B. Numerical optimization and shooting
 
-- NLP structure: decision variables, objectives, constraints, bounds, and parameters
-- CasADi/IPOPT optimization examples
-- Direct Single Shooting and Direct Multiple Shooting
+- [Session 2](../../Numerical-Optimal-Control-Workshop/Session-02-Numerical-Optimization/) — `Example1.m` … `Example6.m` — [lecture](https://youtu.be/F-p0v5NFCwQ?list=PLJ5BV5EDkg3s)
+- [Session 3](../../Numerical-Optimal-Control-Workshop/Session-03-Direct-Single-Shooting/) — `SingleShooting.m` — [lecture](https://youtu.be/g_bZyt_Jphc?list=PLJ5BV5EDkg3s)
+- [Session 4](../../Numerical-Optimal-Control-Workshop/Session-04-Direct-Multiple-Shooting/) — `DirectMultipleShooting.m` — [lecture](https://youtu.be/heRA5tGjCqw?list=PLJ5BV5EDkg3s)
 
-Recommended recordings:
-
-- [Session 2: Numerical Optimization](https://youtu.be/F-p0v5NFCwQ?list=PLJ5BV5EDkg3s)
-- [Session 3: Direct Single Shooting](https://youtu.be/g_bZyt_Jphc?list=PLJ5BV5EDkg3s)
-- [Session 4: Direct Multiple Shooting](https://youtu.be/heRA5tGjCqw?list=PLJ5BV5EDkg3s)
-
-Companion repository: https://github.com/Hamzehkashi/Numerical-Optimal-Control-Workshop
-
-After completing these shared modules, continue with [MPC Session 3](../Session-03-Nonlinear-MPC-Implementation/).
+Then continue with [MPC Session 3](../Session-03-Nonlinear-MPC-Implementation/).
