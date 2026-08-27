@@ -1,3 +1,4 @@
+% Written by Mohammadreza Ghobadzadeh
 function [ output ] = RK4_integrator(ode_fun, input)
 x0 = input.x;
 u0 = input.u;
