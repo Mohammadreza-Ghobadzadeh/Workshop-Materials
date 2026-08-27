@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# MATLAB temporary/generated files
+*.asv
+*.m~
+*.autosave
+slprj/
+codegen/
+
+# OS
+.DS_Store
+Thumbs.db
