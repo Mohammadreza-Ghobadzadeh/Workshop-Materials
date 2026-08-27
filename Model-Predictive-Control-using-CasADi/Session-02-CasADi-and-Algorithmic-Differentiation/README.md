@@ -20,4 +20,4 @@ Continue with the [Shared Prerequisites](../Shared-Prerequisites/) before Sessio
 
 **Language:** Persian
 **Tools:** MATLAB, CasADi
-**Lecturers:** Hamzeh Kashi Yarandi & MohammadReza Ghobadzadeh
+**Lecturers:** MohammadReza Ghobadzadeh & Hamzeh Kashi Yarandi
