@@ -1,18 +1,9 @@
-# Session 2 — Numerical Optimization and Direct Shooting Formulations
+# Session 2 — Numerical Optimization
 
-[Watch Session 2 on YouTube](https://youtu.be/F-p0v5NFCwQ?list=PLJ5BV5EDkg3s)
+[Watch Session 2](https://youtu.be/F-p0v5NFCwQ?list=PLJ5BV5EDkg3s)
 
-## Topics
+## Codes in this folder
 
-- Nonlinear Programming (NLP)
-- Decision variables, objectives, constraints, and bounds
-- IPOPT configuration and numerical solution
-- Constrained and unconstrained optimization
-- Mixed-integer optimization concepts
-- Direct Single Shooting and Direct Multiple Shooting formulations
+- `Example1.m` … `Example6.m`
 
-## Files
-
-- `Example1.m` … `Example6.m` (Example 6 uses BONMIN)
-
-MATLAB scripts live in the [companion source-code repository](https://github.com/Hamzehkashi/Numerical-Optimal-Control-Workshop).
+`Example6.m` needs a CasADi build with BONMIN.
