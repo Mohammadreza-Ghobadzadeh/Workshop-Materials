@@ -1,44 +1,40 @@
 # Workshop Materials
 
-Educational source codes and session materials for university workshops in optimization, optimal control, and model predictive control.
+Hands-on source codes and lecture materials for three university workshops in **numerical optimal control**, **model predictive control**, and **distributed optimization**.
 
+**Lecturers:** Hamzeh Kashi Yarandi & Mohammadreza Ghobadzadeh  
 **Affiliation:** School of Electrical and Computer Engineering, University of Tehran  
-**Laboratories:** Smart Network Systems Laboratory · Advanced Control Systems Laboratory (ACSL)
+**Labs:** Smart Network Systems Laboratory · Advanced Control Systems Laboratory (ACSL) · Process Control Laboratory, K. N. Toosi University of Technology
 
-This repository collects three GitHub-ready workshop packages. Each folder is self-contained and includes its own README, session notes, and (where applicable) code and acknowledgements.
+Every session folder in this repository contains its own notes **and the implementation files**. You do not need any other GitHub repository to download or run the codes.
 
 ## Workshops
 
-| Folder | Workshop | Tools | Lectures |
+| Folder | What you get | Tools | Lectures |
 | --- | --- | --- | --- |
-| [Distributed-Optimization-Workshop](Distributed-Optimization-Workshop/) | Distributed Optimization — theory, algorithms, and applications | CVXPY, CasADi | [CVXPY playlist](https://www.youtube.com/playlist?list=PLU_FeksUzG_k) |
-| [Model-Predictive-Control-using-CasADi](Model-Predictive-Control-using-CasADi/) | Model Predictive Control using CasADi | MATLAB, CasADi | See workshop README |
-| [Numerical-Optimal-Control-Workshop](Numerical-Optimal-Control-Workshop/) | Numerical Optimal Control | MATLAB, CasADi | [Control Research Team playlists](https://www.youtube.com/@Control_Research_Team/playlists) |
+| [Numerical-Optimal-Control-Workshop](Numerical-Optimal-Control-Workshop/) | 7 sessions with MATLAB/CasADi scripts | MATLAB, CasADi | [YouTube](https://www.youtube.com/@Control_Research_Team/playlists) |
+| [Model-Predictive-Control-using-CasADi](Model-Predictive-Control-using-CasADi/) | MPC overview, CasADi/AD, single- and multiple-shooting MPC | MATLAB, CasADi, IPOPT | [Playlist](https://www.youtube.com/playlist?list=PLUtae4hCv9Go) |
+| [Distributed-Optimization-Workshop](Distributed-Optimization-Workshop/) | 7 CVXPY notebooks + 6 CasADi examples | Python/CVXPY, MATLAB/CasADi | [Playlist](https://www.youtube.com/playlist?list=PLU_FeksUzG_k) |
 
-## Repository Structure
+## How to use
 
-```text
-Workshop-Materials/
-├── README.md
-├── .gitignore
-├── Distributed-Optimization-Workshop/
-├── Model-Predictive-Control-using-CasADi/
-└── Numerical-Optimal-Control-Workshop/
+```bash
+git clone https://github.com/Mohammadreza-Ghobadzadeh/Workshop-Materials.git
+cd Workshop-Materials
 ```
 
-## How to Use
+1. Open the workshop folder you need.
+2. Read that folder’s `README.md`.
+3. For CVXPY: `pip install -r Distributed-Optimization-Workshop/requirements.txt`
+4. For MATLAB/CasADi: add *your* CasADi path, then run the `.m` file in the session folder.
 
-1. Open the folder of the workshop you need.
-2. Read that workshop’s `README.md` for session order, software requirements, and lecture links.
-3. Install the listed dependencies (Python/CVXPY for the distributed-optimization CVXPY track; MATLAB + CasADi for the control workshops).
-4. Work through the session folders in order.
+```matlab
+addpath('C:\\path\\to\\casadi')
+import casadi.*
+```
 
-Do not assume a single CasADi install path. Add CasADi to the MATLAB path on your own machine before running `.m` files.
+## Lecturers and attribution
 
-## Lecturers and Attribution
+Workshop organization, Persian lectures, and many implementation files were prepared by the lecturers above. Some numerical examples follow established educational sources (CasADi docs, SysCOP/Freiburg notes, CVXPY examples). See each package `ACKNOWLEDGEMENTS.md`.
 
-Workshop lecturers, laboratory affiliations, and third-party educational sources are documented inside each package (`README.md` and `ACKNOWLEDGEMENTS.md` where present). Some examples are original workshop material; others are adapted from established teaching resources. Check those files before reuse or redistribution.
-
-## License
-
-No repository-wide open-source license is applied. Individual examples may remain subject to the terms of their original educational sources.
+No repository-wide open-source license is applied.
