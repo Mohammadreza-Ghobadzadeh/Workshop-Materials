@@ -1,3 +1,4 @@
+% Written by Mohammadreza Ghobadzadeh
 function LQR_design(Q,R)
 % creates LQR feedback matrix for linearized discrete time system
 A = [1.0050, 0.1002; 0.1002, 1.0050];
