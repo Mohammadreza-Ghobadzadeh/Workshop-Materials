@@ -2,7 +2,7 @@
 
 Hands-on source codes and lecture materials for three university workshops in **numerical optimal control**, **model predictive control**, and **distributed optimization**.
 
-**Lecturers:** Hamzeh Kashi Yarandi & Mohammadreza Ghobadzadeh  
+**Lecturers:** Mohammadreza Ghobadzadeh & Hamzeh Kashi Yarandi 
 **Affiliation:** School of Electrical and Computer Engineering, University of Tehran  
 **Labs:** Smart Network Systems Laboratory · Advanced Control Systems Laboratory (ACSL) · Process Control Laboratory, K. N. Toosi University of Technology
 
@@ -12,9 +12,9 @@ Every session folder in this repository contains its own notes **and the impleme
 
 | Folder | What you get | Tools | Lectures |
 | --- | --- | --- | --- |
-| [Numerical-Optimal-Control-Workshop](Numerical-Optimal-Control-Workshop/) | 7 sessions with MATLAB/CasADi scripts | MATLAB, CasADi | [YouTube](https://www.youtube.com/@Control_Research_Team/playlists) |
-| [Model-Predictive-Control-using-CasADi](Model-Predictive-Control-using-CasADi/) | MPC overview, CasADi/AD, single- and multiple-shooting MPC | MATLAB, CasADi, IPOPT | [Playlist](https://www.youtube.com/playlist?list=PLUtae4hCv9Go) |
-| [Distributed-Optimization-Workshop](Distributed-Optimization-Workshop/) | 7 CVXPY notebooks + 6 CasADi examples | Python/CVXPY, MATLAB/CasADi | [Playlist](https://www.youtube.com/playlist?list=PLU_FeksUzG_k) |
+| [Numerical-Optimal-Control-Workshop](Numerical-Optimal-Control-Workshop/) | 7 sessions with MATLAB/CasADi scripts | MATLAB, CasADi | [Playlist]([https://www.youtube.com/@Control_Research_Team/playlists](https://www.youtube.com/playlist?list=PLJ5BV5EDkg3s)) |
+| [Model-Predictive-Control-using-CasADi](Model-Predictive-Control-using-CasADi/) | MPC overview, CasADi/AD, single- and multiple-shooting MPC | MATLAB, CasADi, IPOPT | [Playlist]([https://www.youtube.com/playlist?list=PLUtae4hCv9Go](https://www.youtube.com/playlist?list=PLUtae4hCv9Go)) |
+| [Distributed-Optimization-Workshop](Distributed-Optimization-Workshop/) | 7 CVXPY notebooks + 15 CasADi examples | Python/CVXPY, MATLAB/CasADi | [Playlist]([https://www.youtube.com/playlist?list=PLU_FeksUzG_k](https://www.youtube.com/playlist?list=PLU_FeksUzG_k)) |
 
 ## How to use
 
