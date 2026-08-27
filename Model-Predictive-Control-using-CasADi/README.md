@@ -4,7 +4,7 @@
 
 Developed and delivered through the **Process Control Laboratory**, K. N. Toosi University of Technology.
 
-**Lecturers:** Hamzeh Kashi Yarandi & MohammadReza Ghobadzadeh
+**Lecturers:** MohammadReza Ghobadzadeh & Hamzeh Kashi Yarandi
 **Language:** Persian
 **Primary tools:** MATLAB, CasADi, IPOPT
 
