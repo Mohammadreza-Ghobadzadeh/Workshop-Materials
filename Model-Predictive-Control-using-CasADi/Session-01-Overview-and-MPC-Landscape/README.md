@@ -18,5 +18,5 @@ Session 1 introduces the overall structure of the workshop and positions Model P
 - Optimization/modeling environments and the CasADi ecosystem
 
 **Language:** Persian
-**Lecturers:** Hamzeh Kashi Yarandi & MohammadReza Ghobadzadeh
+**Lecturers:** MohammadReza Ghobadzadeh & Hamzeh Kashi Yarandi
 **Host:** Process Control Laboratory, K. N. Toosi University of Technology
