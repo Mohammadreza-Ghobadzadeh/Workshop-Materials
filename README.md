@@ -12,7 +12,7 @@ Every session folder in this repository contains its own notes **and the impleme
 
 | Folder | What you get | Tools | Lectures |
 | --- | --- | --- | --- |
-| [Numerical-Optimal-Control-Workshop](Numerical-Optimal-Control-Workshop/) | 7 sessions with MATLAB/CasADi scripts | MATLAB, CasADi | [Playlist](https://www.youtube.com/playlist?list=PLU_FeksUzG_k) |
+| [Numerical-Optimal-Control-Workshop](Numerical-Optimal-Control-Workshop/) | 7 sessions with MATLAB/CasADi scripts | MATLAB, CasADi | [Playlist](https://www.youtube.com/playlist?list=PLJ5BV5EDkg3s) |
 | [Model-Predictive-Control-using-CasADi](Model-Predictive-Control-using-CasADi/) | MPC overview, CasADi/AD, single- and multiple-shooting MPC | MATLAB, CasADi, IPOPT | [Playlist](https://www.youtube.com/playlist?list=PLUtae4hCv9Go) |
 | [Distributed-Optimization-Workshop](Distributed-Optimization-Workshop/) | 7 CVXPY notebooks + 15 CasADi examples | Python/CVXPY, MATLAB/CasADi | [Playlist](https://www.youtube.com/playlist?list=PLU_FeksUzG_k) |
 
