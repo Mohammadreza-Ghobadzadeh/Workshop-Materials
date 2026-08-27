@@ -1,12 +1,16 @@
 # Workshop Materials
 
-Hands-on source codes and lecture materials for three university workshops in **numerical optimal control**, **model predictive control**, and **distributed optimization**.
+Hands-on source codes and lecture videos for three university workshops in **numerical optimal control**, **model predictive control**, and **distributed optimization**.
 
-**Lecturers:** Mohammadreza Ghobadzadeh & Hamzeh Kashi Yarandi 
+**Lecturers:** Mohammadreza Ghobadzadeh & Hamzeh Kashi Yarandi  
 **Affiliation:** School of Electrical and Computer Engineering, University of Tehran  
 **Labs:** Smart Network Systems Laboratory · Advanced Control Systems Laboratory (ACSL) · Process Control Laboratory, K. N. Toosi University of Technology
 
-Every session folder in this repository contains its own notes **and the implementation files**.
+Every session folder contains its notes **and the implementation files**. All codes live in this repository.
+
+## About
+
+Persian-language workshop collection covering numerical optimal control, nonlinear MPC, and distributed optimization. Includes MATLAB/CasADi scripts, Python/CVXPY notebooks, and direct links to every recorded lecture.
 
 ## Workshops
 
@@ -14,7 +18,7 @@ Every session folder in this repository contains its own notes **and the impleme
 | --- | --- | --- | --- |
 | [Numerical-Optimal-Control-Workshop](Numerical-Optimal-Control-Workshop/) | 7 sessions with MATLAB/CasADi scripts | MATLAB, CasADi | [Playlist](https://www.youtube.com/playlist?list=PLJ5BV5EDkg3s) |
 | [Model-Predictive-Control-using-CasADi](Model-Predictive-Control-using-CasADi/) | MPC overview, CasADi/AD, single- and multiple-shooting MPC | MATLAB, CasADi, IPOPT | [Playlist](https://www.youtube.com/playlist?list=PLUtae4hCv9Go) |
-| [Distributed-Optimization-Workshop](Distributed-Optimization-Workshop/) | 7 CVXPY notebooks + 15 CasADi examples | Python/CVXPY, MATLAB/CasADi | [Playlist](https://www.youtube.com/playlist?list=PLU_FeksUzG_k) |
+| [Distributed-Optimization-Workshop](Distributed-Optimization-Workshop/) | 7 CVXPY notebooks + 15 CasADi lectures and examples | Python/CVXPY, MATLAB/CasADi | [Playlist](https://www.youtube.com/playlist?list=PLU_FeksUzG_k) |
 
 ## How to use
 
@@ -35,6 +39,6 @@ import casadi.*
 
 ## Lecturers and attribution
 
-Workshop organization, Persian lectures, and many implementation files were prepared by the lecturers above. Some numerical examples follow established educational sources (CasADi docs, SysCOP/Freiburg notes, CVXPY examples). See each package `ACKNOWLEDGEMENTS.md`.
+Workshop organization, Persian lectures, and implementation files were prepared by the lecturers above. Some numerical examples follow established educational sources (CasADi docs, SysCOP/Freiburg notes, CVXPY examples). See each package `ACKNOWLEDGEMENTS.md`.
 
 No repository-wide open-source license is applied.
