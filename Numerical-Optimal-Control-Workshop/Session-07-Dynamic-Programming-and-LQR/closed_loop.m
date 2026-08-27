@@ -1,3 +1,4 @@
+% Written by Mohammadreza Ghobadzadeh
 clc; clear all; close all;
 x0 = [pi; 0];
 load lqr.mat A B Q R K P
