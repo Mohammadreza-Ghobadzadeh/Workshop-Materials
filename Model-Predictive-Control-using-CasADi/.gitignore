@@ -1,0 +1,15 @@
+# MATLAB temporary files
+*.asv
+*.m~
+*.autosave
+
+# MATLAB generated folders
+slprj/
+codegen/
+
+# Generated videos
+*.avi
+
+# OS files
+.DS_Store
+Thumbs.db
