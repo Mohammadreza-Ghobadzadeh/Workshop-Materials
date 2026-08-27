@@ -6,7 +6,7 @@
 **Smart Network Systems Laboratory**  
 **University of Tehran**
 
-**Lecturers:** Hamzeh Kashi Yarandi & MohammadReza Ghobadzadeh  
+**Lecturers:** MohammadReza Ghobadzadeh & Hamzeh Kashi Yarandi   
 **Primary implementation tool:** CVXPY  
 **Complementary tool:** CasADi
 
